@@ -7,19 +7,30 @@
 
   function resizeHeight($window) {
 
-    return function($scope, $element, attributes) {
-      // Only percentage for now
-      var winElement = angular.element($window);
-      var resizeValue = attributes.resizeHeight;
+    return {
+      restrict: 'A',
+      link: function($scope, $element, attributes) {
+        // Only percentage for now
+        var resizeValue = attributes.resizeHeight;
+        var related = angular.element($window);
+        var relatedSelector = attributes.resizeRelated;
 
-      var changeHeight = function(event) {
-        // TODO: use jQuery.height to improve total number
-        var currentHeight = winElement[0].innerHeight * parseFloat(resizeValue);
-        $element.css('height', currentHeight + 'px');
-      };
+        // If present, we use the selector instead of $window
+        if (relatedSelector != undefined) {
+          related = angular.element(relatedSelector);
+        }
 
-      winElement.bind('resize', changeHeight);
-      changeHeight(); // when page loads 
+        var changeHeight = function(event) {
+          // TODO: use jQuery.height to improve total number
+          console.log(related.height());
+          var elementHeight = related.height();
+          var currentHeight = elementHeight * parseFloat(resizeValue);
+          $element.css('height', currentHeight + 'px');
+        };
+
+        related.bind('resize', changeHeight);
+        changeHeight(); // when page loads 
+      }
     }
 
   }
