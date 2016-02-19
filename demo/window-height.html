@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" ng-app="crazy-example">
+  <head>
+    <meta charset="utf-8">
+    <title>Crazy height example</title>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../crazy_resize.js"></script>
+    <style>
+      body { color: white; }
+      #top { background-color: green; }
+      #bottom { background-color: blue; }
+    </style>
+  </head>
+  <body>
+
+    <div resize-height="0.8" id="top">I'm on top</div>
+    <div resize-height="0.2" id="bottom">I'm at the bottom</div>
+    
+    <script type="text/javascript">
+      angular.module('crazy-example', ['crazy-resize'])
+    </script>
+  </body>
+</html>
