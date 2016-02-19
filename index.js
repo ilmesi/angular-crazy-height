@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('crazy-resize')
+    .module('crazy-resize', [])
     .directive('resize-height', resizeHeight);
 
   function resizeHeight($window) {
