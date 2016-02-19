@@ -1,0 +1,24 @@
+{
+  "name": "angular-crazy-height",
+  "homepage": "https://github.com/ilmesi/angular-crazy-height",
+  "description": "set height to any element on angular",
+  "main": "index.js",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "height",
+    "adjust",
+    "directive"
+  ],
+  "authors": [
+    "ilmesi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
