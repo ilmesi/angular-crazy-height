@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('findtrip')
+    .module('crazy-resize')
     .directive('resize-height', resizeHeight);
 
   function resizeHeight($window) {
