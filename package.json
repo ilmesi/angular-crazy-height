@@ -2,7 +2,7 @@
   "name": "angular-crazy-height",
   "version": "0.0.1",
   "description": "set height to any element on angular",
-  "main": "index.js",
+  "main": "crazy_resize.js",
   "directories": {
     "test": "test"
   },
