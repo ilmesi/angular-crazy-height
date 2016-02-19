@@ -10,7 +10,7 @@ Dead simple directive to setup height of any element with Angular
 </div>
 ```
 
-### Percentage from related (not neccesary parent)
+### Percentage from related (not necessary parent)
 ```
 <div id="big-daddy">
   <div resize-height="0.9" resize-related="0.9">
