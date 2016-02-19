@@ -10,7 +10,7 @@
     return function($scope, $element, attributes) {
       // Only percentage for now
       var winElement = angular.element($window);
-      var resizeValue = attributes['resizeHeight'];
+      var resizeValue = attributes.resizeHeight;
 
       var changeHeight = function(event) {
         // TODO: use jQuery.height to improve total number
