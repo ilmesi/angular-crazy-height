@@ -1,0 +1,32 @@
+{
+  "name": "angular-crazy-height",
+  "version": "0.0.1",
+  "description": "set height to any element on angular",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilmesi/angular-crazy-height.git"
+  },
+  "keywords": [
+    "angular",
+    "height",
+    "adjust",
+    "directive"
+  ],
+  "author": "ilmesi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ilmesi/angular-crazy-height/issues"
+  },
+  "homepage": "https://github.com/ilmesi/angular-crazy-height#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^2.3.1"
+  }
+}
