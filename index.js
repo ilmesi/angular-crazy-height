@@ -13,6 +13,7 @@
       var resizeValue = attributes['resizeHeight'];
 
       var changeHeight = function(event) {
+        // TODO: use jQuery.height to improve total number
         var currentHeight = winElement[0].innerHeight * parseFloat(resizeValue);
         $element.css('height', currentHeight + 'px');
       };
