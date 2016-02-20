@@ -2,7 +2,7 @@
   "name": "angular-crazy-height",
   "version": "0.0.1",
   "description": "set height to any element on angular",
-  "main": "crazy_resize.js",
+  "main": "dist/crazy_resize.js",
   "directories": {
     "test": "test"
   },
@@ -27,6 +27,8 @@
   "homepage": "https://github.com/ilmesi/angular-crazy-height#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-connect": "^2.3.1"
+    "gulp-connect": "^2.3.1",
+    "gulp-uglify": "^1.5.2",
+    "uglify": "^0.1.5"
   }
 }

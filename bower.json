@@ -2,7 +2,7 @@
   "name": "angular-crazy-height",
   "homepage": "https://github.com/ilmesi/angular-crazy-height",
   "description": "set height to any element on angular",
-  "main": "crazy_resize.js",
+  "main": "dist/crazy_resize.js",
   "moduleType": [],
   "keywords": [
     "angular",
