@@ -21,7 +21,6 @@
         }
 
         var changeHeight = function(event) {
-          // TODO: use jQuery.height to improve total number
           var elementHeight = related.height();
           var currentHeight = elementHeight * parseFloat(resizeValue);
           $element.css('height', currentHeight + 'px');
