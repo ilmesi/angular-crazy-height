@@ -1,6 +1,6 @@
 {
   "name": "angular-crazy-height",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "set height to any element on angular",
   "main": "dist/crazy_resize.js",
   "directories": {

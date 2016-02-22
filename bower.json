@@ -4,6 +4,7 @@
   "description": "set height to any element on angular",
   "main": "dist/crazy_resize.js",
   "moduleType": [],
+  "version": "0.0.3",
   "keywords": [
     "angular",
     "height",
