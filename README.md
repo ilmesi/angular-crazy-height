@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ilmesi/angular-crazy-height.svg?branch=master)](https://travis-ci.org/ilmesi/angular-crazy-height)
+
 # angular-crazy-height
 Dead simple directive to setup height of any element with Angular
 
